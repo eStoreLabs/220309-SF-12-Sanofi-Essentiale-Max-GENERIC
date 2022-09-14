@@ -187,20 +187,17 @@ html {
 }
 #es-essentiale-max.es-essentiale-max .es-nav__single {
   margin: 5px;
-  background-color: #bd3e00;
-  padding: 10px;
-  min-height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#es-essentiale-max.es-essentiale-max .es-nav__single:hover {
-  transition: 1s all ease-in-out;
-  background: rgb(164, 38, 24);
-  background: linear-gradient(191deg, rgb(164, 38, 24) 0%, rgb(226, 81, 15) 81%);
-  box-shadow: inset -3px 1px 31px -3px rgb(214, 211, 114);
-}
 #es-essentiale-max.es-essentiale-max .es-nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 45px;
+  padding: 10px;
   text-decoration: none;
   text-align: center;
   line-height: 1.2;
@@ -208,6 +205,13 @@ html {
   color: #fff;
   text-shadow: 2px 1px 1px #000;
   font-size: 18px;
+  background-color: #bd3e00;
+}
+#es-essentiale-max.es-essentiale-max .es-nav__link:hover {
+  transition: 1s all ease-in-out;
+  background: rgb(164, 38, 24);
+  background: linear-gradient(191deg, rgb(164, 38, 24) 0%, rgb(226, 81, 15) 81%);
+  box-shadow: inset -3px 1px 31px -3px rgb(214, 211, 114);
 }
 #es-essentiale-max.es-essentiale-max .es-section__title {
   margin: 0 auto;
