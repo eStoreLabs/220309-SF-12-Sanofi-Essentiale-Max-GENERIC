@@ -132,8 +132,8 @@ html{
                 text-shadow: 2px 1px 6px #000;
                 color: #fff;
                 sup{
-                    font-size: 40px;
-                    margin: 5px;
+                    font-size: 30px;
+                    margin: 10px;
                 }
             }
         }
@@ -194,7 +194,7 @@ html{
         justify-content: center;
         align-items: center;
         &__text{
-           font-size: 20px;
+           font-size: 25px;
            text-align: center;
            line-height: 1.2;
            font-family: $text-light;
@@ -219,11 +219,12 @@ html{
             align-items: center;
         }
         &__iconsSingle{
-            width: 220px;
+            width: 250px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin-bottom: 20px;
             img{
                 width: 120px;
                 animation: es-pulse2 2s infinite;
@@ -231,6 +232,7 @@ html{
             p{
                 text-transform: uppercase;
                 font-weight: 600;
+                font-size: 20px;
             }
         }
     }
@@ -245,6 +247,9 @@ html{
             font-weight: 200;
             font-family: $text-light; 
             font-weight: bolder; 
+            }
+            sup{
+                font-size: 15px;
             }
             strong{
                 font-family: $title;
@@ -261,7 +266,7 @@ html{
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            width: 250px;
+            width: 300px;
             margin: 20px;
             img{
                 width: 120px;
@@ -277,10 +282,11 @@ html{
         }
         &__desc{
             text-align: center;
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 200;
             font-family: $text-light;
             font-weight: bolder;
+            line-height: 1.2;
         }
     }
     .es-doubleDoze{
@@ -320,7 +326,7 @@ html{
             color: #fff;
             padding: 20px 0;
             sup{
-                font-size: 40px;
+                font-size: 25px;
                 margin: 5px;
             }
         }
@@ -466,7 +472,7 @@ html{
             align-items: center;
         }
         &__packshot{
-            width: 200px;
+            width: 250px;
         }
         &__name{
             p{

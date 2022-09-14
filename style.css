@@ -176,8 +176,8 @@ html {
   color: #fff;
 }
 #es-essentiale-max.es-essentiale-max .es-kv__title p sup {
-  font-size: 40px;
-  margin: 5px;
+  font-size: 30px;
+  margin: 10px;
 }
 #es-essentiale-max.es-essentiale-max .es-nav {
   margin: 20px 10px;
@@ -235,7 +235,7 @@ html {
   align-items: center;
 }
 #es-essentiale-max.es-essentiale-max .es-when__text {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   line-height: 1.2;
   font-family: "Oswald-light";
@@ -259,11 +259,12 @@ html {
   align-items: center;
 }
 #es-essentiale-max.es-essentiale-max .es-when__iconsSingle {
-  width: 220px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 #es-essentiale-max.es-essentiale-max .es-when__iconsSingle img {
   width: 120px;
@@ -273,6 +274,7 @@ html {
 #es-essentiale-max.es-essentiale-max .es-when__iconsSingle p {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 20px;
 }
 #es-essentiale-max.es-essentiale-max .es-effect {
   display: flex;
@@ -285,6 +287,9 @@ html {
   font-weight: 200;
   font-family: "Oswald-light";
   font-weight: bolder;
+}
+#es-essentiale-max.es-essentiale-max .es-effect__text sup {
+  font-size: 15px;
 }
 #es-essentiale-max.es-essentiale-max .es-effect__text strong {
   font-family: "Oswald";
@@ -300,7 +305,7 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 250px;
+  width: 300px;
   margin: 20px;
 }
 #es-essentiale-max.es-essentiale-max .es-effect__iconsSingle img {
@@ -317,10 +322,11 @@ html {
 }
 #es-essentiale-max.es-essentiale-max .es-effect__desc {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
   font-family: "Oswald-light";
   font-weight: bolder;
+  line-height: 1.2;
 }
 #es-essentiale-max.es-essentiale-max .es-doubleDoze {
   background-image: url(./images/section-bg.png);
@@ -361,7 +367,7 @@ html {
   padding: 20px 0;
 }
 #es-essentiale-max.es-essentiale-max .es-doubleDoze__text sup {
-  font-size: 40px;
+  font-size: 25px;
   margin: 5px;
 }
 #es-essentiale-max.es-essentiale-max .es-benefits {
@@ -500,7 +506,7 @@ html {
   align-items: center;
 }
 #es-essentiale-max.es-essentiale-max .es-cross__packshot {
-  width: 200px;
+  width: 250px;
 }
 #es-essentiale-max.es-essentiale-max .es-cross__name p {
   color: #fff;
