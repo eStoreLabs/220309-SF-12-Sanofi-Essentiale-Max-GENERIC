@@ -95,7 +95,7 @@ html{
 #es-essentiale-max.es-essentiale-max{
     background-color: #fff;
     color: #000;
-    line-height: 1;
+    line-height: 1.2;
     font-size: 16px;
     min-height: 400px;
     max-width: 960px;
@@ -123,6 +123,7 @@ html{
             align-self: flex-end;
             padding: 0 20px;
             font-weight: 600;
+            line-height: 1;
             p{
                 font-size: 60px;
                 font-family: $title;
@@ -363,6 +364,19 @@ html{
             flex-direction: column;
             justify-content: space-between;
         }
+        &__textCtn{
+            &--regeneracja{
+                margin-top: 100px;
+                margin-right: -20px;
+            }
+            &--ochrona{
+                margin-left: -40px;
+            }
+            &--wzmocnienie{
+                margin-top: 40px;
+                margin-left: -40px;
+            }
+        }
         &__subtitle{
             color: $orange-text;
             font-style: italic;
@@ -372,6 +386,7 @@ html{
             font-family: $text-light;
             font-weight: bolder;
             line-height: 1.2;
+            font-size: 20px;
         }
         &__claim{
             text-align: center;
@@ -416,6 +431,7 @@ html{
             font-size: 20px;
             font-family: $text-light;
             font-weight: bolder;
+            line-height: 1.2;
         }
     }
     .es-liverCheck{
@@ -601,6 +617,19 @@ html{
             }
             &__text{
                 text-align: center;
+            }
+            &__textCtn{
+                &--regeneracja{
+                    margin-top: 0;
+                    margin-right: 0;
+                }
+                &--ochrona{
+                    margin-left: 0;
+                }
+                &--wzmocnienie{
+                    margin-top: 0;
+                    margin-left: 0;
+                }
             }
         }
         .es-liverCheck{

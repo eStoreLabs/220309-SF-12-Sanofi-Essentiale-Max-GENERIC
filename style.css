@@ -135,7 +135,7 @@ html {
 #es-essentiale-max.es-essentiale-max {
   background-color: #fff;
   color: #000;
-  line-height: 1;
+  line-height: 1.2;
   font-size: 16px;
   min-height: 400px;
   max-width: 960px;
@@ -165,6 +165,7 @@ html {
   align-self: flex-end;
   padding: 0 20px;
   font-weight: 600;
+  line-height: 1;
 }
 #es-essentiale-max.es-essentiale-max .es-kv__title p {
   font-size: 60px;
@@ -401,6 +402,17 @@ html {
   flex-direction: column;
   justify-content: space-between;
 }
+#es-essentiale-max.es-essentiale-max .es-benefits__textCtn--regeneracja {
+  margin-top: 100px;
+  margin-right: -20px;
+}
+#es-essentiale-max.es-essentiale-max .es-benefits__textCtn--ochrona {
+  margin-left: -40px;
+}
+#es-essentiale-max.es-essentiale-max .es-benefits__textCtn--wzmocnienie {
+  margin-top: 40px;
+  margin-left: -40px;
+}
 #es-essentiale-max.es-essentiale-max .es-benefits__subtitle {
   color: #a52903;
   font-style: italic;
@@ -410,6 +422,7 @@ html {
   font-family: "Oswald-light";
   font-weight: bolder;
   line-height: 1.2;
+  font-size: 20px;
 }
 #es-essentiale-max.es-essentiale-max .es-benefits__claim {
   text-align: center;
@@ -455,6 +468,7 @@ html {
   font-size: 20px;
   font-family: "Oswald-light";
   font-weight: bolder;
+  line-height: 1.2;
 }
 #es-essentiale-max.es-essentiale-max .es-liverCheck {
   margin: 50px 0;
@@ -627,6 +641,17 @@ html {
   }
   #es-essentiale-max.es-essentiale-max .es-benefits__text {
     text-align: center;
+  }
+  #es-essentiale-max.es-essentiale-max .es-benefits__textCtn--regeneracja {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  #es-essentiale-max.es-essentiale-max .es-benefits__textCtn--ochrona {
+    margin-left: 0;
+  }
+  #es-essentiale-max.es-essentiale-max .es-benefits__textCtn--wzmocnienie {
+    margin-top: 0;
+    margin-left: 0;
   }
   #es-essentiale-max.es-essentiale-max .es-liverCheck__subtitle {
     text-align: center;
