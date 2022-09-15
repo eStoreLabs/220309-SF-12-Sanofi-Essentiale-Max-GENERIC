@@ -489,6 +489,10 @@ html{
         }
         &__packshot{
             width: 250px;
+            &:hover{
+                scale:1.05;
+                transition: .5s all ease-in-out;
+            }
         }
         &__name{
             p{

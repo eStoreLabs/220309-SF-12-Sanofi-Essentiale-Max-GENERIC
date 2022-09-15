@@ -522,6 +522,10 @@ html {
 #es-essentiale-max.es-essentiale-max .es-cross__packshot {
   width: 250px;
 }
+#es-essentiale-max.es-essentiale-max .es-cross__packshot:hover {
+  scale: 1.05;
+  transition: 0.5s all ease-in-out;
+}
 #es-essentiale-max.es-essentiale-max .es-cross__name p {
   color: #fff;
   font-size: 25px;
